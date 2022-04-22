@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 from scipy import sparse
 
-from server.request_handler import get_purchasers_by_creator
-from server.request_handler import get_nft_by_creator
-from server.request_handler import get_nft_by_owner
+from request_handler import get_purchasers_by_creator
+from request_handler import get_nft_by_creator
+from request_handler import get_nft_by_owner
 
 
 class ModelControl:

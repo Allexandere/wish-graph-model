@@ -37,5 +37,5 @@ async def get_creator_wallet(user_token):
 
 
 if __name__ == "__main__":
-    port = '8082'
+    port = '8081'
     app.run(port=port, host='0.0.0.0', debug=True, use_reloader=False)
